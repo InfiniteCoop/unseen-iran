@@ -1,0 +1,624 @@
+#largeImageContainer{
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 9999;
+	background-color: white;
+}
+
+.centric-layout #mapPanel {
+	width: 100% !important;
+}
+
+.leftNav{
+	width: 65px;
+	height: inherit;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	background: white;
+}
+
+.leftNavButton{
+	position: absolute;
+	top: 47%;
+	height: 65px;
+	width: 65px;
+	cursor: pointer;
+	background: url('../../../../../resources/icons/greyArrow.png');
+	background-position: 54%;
+	background-repeat: no-repeat;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+	background-size: 60%;
+	opacity: 0.9
+}
+
+.leftNavButton:hover{
+	opacity: 1;
+}
+
+.rightNavButton{
+	position: absolute;
+	top: 47%;
+	height: 65px;
+	width: 65px;
+	cursor: pointer;
+	background: url('../../../../../resources/icons/greyArrow.png');
+	background-position: 54%;
+	background-repeat: no-repeat;
+	background-size: 60%;
+	opacity: 0.9;
+}
+
+.rightNavButton:hover{
+	opacity: 1;
+}
+
+.rightNav{
+	width: 65px;;
+	height: inherit;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	background: white;
+}
+
+.imageContainer{
+	position: absolute;
+	top: 0;
+	left: 65px;
+	height: 100%;
+	background: white;
+}
+
+.imageContainer .btn-fullscreen{
+	background: url('../../../../../resources/icons/media-fullscreen-reverse.png');
+}
+
+#smallImageContainer .imageContainer{
+	left: 15px;
+	right: 15px;
+	width: initial;
+}
+
+.layoutFader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 40px;
+	width: 100%;
+	background-color: white;
+	display: none;
+	z-index: 9999;
+}
+
+#smallImageContainer .layoutFader{
+	bottom: 0;
+}
+
+.landscape{
+	display: none;
+	height: 100%;
+	width: 100%;
+}
+
+.landscapeContent{
+	position: absolute;
+	bottom: 0;
+    width: 100%;
+}
+
+#largeImageContainer .landscapeContent{
+	bottom: 40px;
+	min-height: 150px;
+	height: 150px;
+}
+
+.landscapePhoto{
+	position: absolute;
+	margin-top: 15px;
+	height: 73%;
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#smallImageContainer .landscapePhoto{
+	height: 100px;
+	width: 100px
+}
+
+.landscapeIframe{
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+
+.landscapePhoto .imageFader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+	background-color: white;
+	z-index: 0;
+}
+
+.landscapePhoto .btn-fullscreen{
+	left: 10px;
+	top: 10px;
+}
+
+#largeImageContainer .landscapeContent .largeImageAppTitleArea{
+	display: none;
+	position: absolute;
+}
+
+#largeImageContainer .largeImageAppTitle{
+	/* TODO max-length will bump map around.  fixed width? */
+	font-weight: bold;
+	color: grey;
+	height: auto;
+	padding-right: 10px;
+	/*overflow-y: hidden;*/
+}
+#largeImageContainer .landscape .largeImageAppTitle{
+	max-width: 200px;
+}
+
+#largeImageContainer .portrait .largeImageAppTitle{
+	max-height: 44px;
+	overflow-y: hidden;
+}
+
+#largeImageContainer .landscapeTextArea{
+	/*width: 250px;
+	height: 80%;*/
+	position: relative;
+	left: 30px;
+	margin-right: 30px;
+	top: 0;
+	bottom: 40px;
+	overflow: auto;
+	height: inherit;
+	overflow-x: hidden;
+}
+
+#largeImageContainer .landscapeTitle{
+	margin-bottom: 15px;
+}
+
+.largeImageAppLogo{
+	position: relative;
+	height: 60px;
+	left: -10px;
+	background-repeat: no-repeat;
+}
+
+.largeImageLogoImg{
+	max-width: 250px;
+	max-height: 40px;
+}
+
+.landscapeSocial{
+	position: absolute;
+}
+
+.landscapeCircleMapPlaceHolder{
+	float: left;
+	position: relative;
+	bottom: 60px;
+	margin-left: 250px;
+}
+
+.largeImageSwitchView{
+	position: absolute;
+	top: 10%;
+	left: 80%;
+	height: 65px;
+	width: 65px;
+	cursor: pointer;
+	background: url('../../../../../resources/icons/switchLayout.png');
+	background-repeat: no-repeat;
+	background-size: 60%;
+	z-index: 999;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.largeImageSwitchView:hover{
+	opacity: 1;
+}
+
+/* USED? */
+.landscapeSubtitle{
+	color: #999;
+	margin-left: 5px;
+}
+
+.portrait{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+#largeImageContainer .portrait{
+	position: absolute;
+}
+
+.portrait .circleMap{
+	position: absolute;
+	max-height: 315px;
+	max-width: 315px;
+}
+
+.portraitContent{
+	position: relative;
+	height: 100%;
+	width: 35%;
+}
+
+.portraitPhoto{
+	float: right;
+	position: relative;
+	height: 100%;
+	width: 70%;
+}
+
+#largeImageContainer .portraitPhoto{
+	margin-top: 10px;
+}
+
+.portraitPhoto .btn-fullscreen{
+	left: 10px;
+	top: 10px;
+}
+
+.photo{
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;/*contain;*/
+    -moz-background-size: cover;/*contain;*/
+    -o-background-size: cover;/*contain;*/
+    background-size: cover;/*contain;*/
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.photo.error{
+	background-size: initial;
+	width: 100%;
+	height: 100%;
+	background-image: url('../../../../../resources/icons/picture-not-available.png') !important;
+}
+
+#largeImageContainer .portraitTextArea{
+	position: relative;
+	margin-top: 20px;
+	overflow-y: auto;
+	margin-right: 30px;
+	padding-right: 10px;
+	/*margin-bottom: 40px;*/
+	/*max-height: 35%;*/
+	height: 35%;
+}
+
+.portraitCircleMapPlaceHolder{
+	position: absolute;
+	bottom: 220px;	
+}
+
+/* USED */
+.portraitSubtitle{
+	margin-left: 5px;
+	margin-top: 20px;
+	color: grey;
+	line-height: 1.5;
+}
+
+.portraitAppLogo{
+	position: relative;
+	top: 10px;
+	left: -10px;
+	height: 60px;
+	background-repeat: no-repeat;
+}
+
+.portraitLogoImg{
+	max-width: 250px;
+	max-height: 40px;
+}
+
+#largeImageContainer .photoSocial{
+	display: none;
+	position: absolute;
+	bottom: 50px;
+}
+
+.newLayout{
+	position: absolute;
+	top: 0 !important;
+	bottom: 40px !important;
+	left: 0 !important;
+	right: 0 !important;
+	height: initial;
+	width: initial;
+}
+
+#largeImageContainer .msLink{
+	display: none;
+}
+
+/*
+ * 
+ * map centric view
+ * 
+ */
+
+#smallImageContainer{
+	width: 55%;
+	height: 76%;
+	position: absolute;
+	top: 10%;
+	left: 60px;
+	background-color: white;
+	display: none;
+	border-radius: 20px;
+}
+
+.smallImageSwitchView{
+	position: absolute;
+	top: -12px;
+	right: -40px;
+	height: 65px;
+	width: 65px;
+	cursor: pointer;
+	background: url('../../../../../resources/icons/switchLayout.png');
+	background-repeat: no-repeat;
+	background-size: 60%;
+	z-index: 99;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+.smallImageSwitchView:hover{
+	opacity: 1;
+}
+
+.smallImageLeftNav{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: -47px;
+	display: none;
+}
+
+.centric-layout .smallImageLeftNav{
+	display: block;
+}
+
+.smallImageLeftNavButton{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	background: url('../../../../../resources/icons/shadedLeftArrow.png');
+	background-position: 54%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.9;
+}
+
+.smallImageLeftNavButton:hover{
+	opacity: 1;
+}
+
+.smallImageRightNav{
+	width: 150px;
+	height: 150px;
+	left: calc(55% + 20px);
+	top: 43%;
+	position: absolute;
+	display: none;
+}
+
+.centric-layout .smallImageRightNav{
+	display: block;
+}
+
+.smallImageRightNavButton{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	background: url('../../../../../resources/icons/shadedRightArrow.png');
+	background-position: 54%;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.9;
+}
+
+.smallImageRightNavButton:hover{
+	opacity: 1;
+}
+
+/*.smallImageRightNavButton:hover{
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	background-position: 54%;
+	background-repeat: no-repeat;
+	background: url('../../../../../resources/icons/PointerGray.svg');
+}*/
+
+
+
+#smallImageContainer .portraitPhoto{
+	position: absolute;
+	top: 15px;
+	bottom: 15px;
+	right: 0;
+	height: auto;
+	width: 65%;
+}
+ 
+#smallImageContainer .landscapeTextArea{
+	bottom: 0;
+	position: absolute;
+	left: 0 !important;
+	width: 100% !important;
+	padding: 0px;
+	overflow-y: auto;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+#smallImageContainer .landscapeContent{
+	min-height: 160px;
+}
+
+#smallImageContainer .photoSocial{
+	display: none;
+	position: absolute;
+	bottom: 10px;
+	/*TODO REMOVE? */
+	height: 22px;
+	overflow: hidden;
+}
+
+#smallImageContainer .shareButtons{
+	float: right;
+	position: relative;
+	left: -10px;
+}
+
+/*#smallImageContainer .landscapeTextArea{
+	border-left: grey 2px solid;
+}
+*/
+#smallImageContainer .portraitTextArea{
+	height: 60%;
+	overflow-y: auto;
+	top: 20px;
+	position: relative;
+	margin-bottom: 15px;
+	margin-right: 15px;
+}
+
+#smallImageContainer .landscapeAppTitle{
+	display: none;
+	width: 30%;
+}
+
+#smallImageContainer .landscapeTitle{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#smallImageContainer .landscapeSubtitle{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+ 
+.landscape .imageAppTitleArea{
+	display: none;
+} 
+
+.portrait .imageAppTitleArea{
+	display: none;
+	width: initial;
+	position: relative;
+	margin-top: -30px;
+}
+
+#smallImageContainer .portrait .imageAppTitleArea{
+	margin-right: 3px;
+}
+
+.imageAppTitle{
+	max-height: 66px;
+	height: auto;
+	margin-right: 1px;
+	overflow-y: hidden;
+	font-weight: bold;
+	color: grey;
+}
+
+.imageAppLogo{
+	position: relative;
+	/*top: 10px;*/
+	/*TODO: left -10px good? */
+	left: -10px;
+	height: 60px;
+	background-repeat: no-repeat;
+}
+
+.imageLogoImg{
+	max-width: 250px;
+	max-height: 40px;
+}
+
+#smallImageContainer .btn-fullscreen{
+	left: 10px;
+	top: 10px;
+}
+
+.centric-layout #placardContainer{
+	display:none !important;
+}
+
+/*.centric-layout #headerDesktop{
+	display: none;
+}
+
+body.centric-layout:not(.mobile-view) #header{
+	display: none !important;
+}*/
+
+body.centric-layout:not(.mobile-view) #footer{
+	height: 0 !important;
+}
+
+body.centric-layout:not(.mobile-view) .esriSimpleSliderTL{
+	right: 20px;
+	left: auto;
+}
+
+body.centric-layout:not(.mobile-view) .mapCommandLocation{
+	right: 20px;
+	left: initial;
+}
+
+#largeImageLoadingIndicator{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+
+.landscape #largeImageLoadingIndicator{
+	/*margin-top: -40%;*/
+}
+
+.portrait #largeImageLoadingIndicator{
+	/*margin-top: -60%;*/
+}
+
+#smallImageLoadingIndicator{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+
+.landscape #smallImageLoadingIndicator{
+	/*margin-top: -100px;*/
+}
+
+.portrait #smallImageLoadingIndicator{
+	/*margin-top: -50px;*/
+}

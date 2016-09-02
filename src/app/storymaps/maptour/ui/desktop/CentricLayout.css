@@ -1,0 +1,30 @@
+/*
+ * Header
+ */
+
+.linkContainer {
+	display: inline-block;
+	height: 22px;
+	overflow: hidden;
+	vertical-align: -4px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#centricIntroPanel .linkContainer{
+	position: absolute;
+}
+
+#contentPanel .popover-content img {
+	width: 100%;
+}
+
+#contentPanel .popover {
+	max-width: 230px;
+	width: auto;
+}
+
+#contentPanel .popover-title {
+	text-align: center;
+}

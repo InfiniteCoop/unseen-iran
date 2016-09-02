@@ -1,0 +1,7 @@
+#progress-bar, #progress-back {
+	display: none !important;
+}
+
+#controls a {
+	border: none !important;
+}
