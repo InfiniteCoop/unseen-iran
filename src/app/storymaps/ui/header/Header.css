@@ -8,7 +8,7 @@
 }
 
 #header .title {
-	font-family: 'Monda', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: bold;
 }
 
@@ -34,6 +34,7 @@
 	height:26px;
 	padding-top: 18px;
 	font-size:20px;
+	display: inline-block !important;
 	font-weight:normal;
 	text-align:left;
 	overflow: hidden;
