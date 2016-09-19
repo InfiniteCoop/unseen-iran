@@ -375,7 +375,7 @@ define([
 					tooltipBgColor: "#000000",
 					tooltipFontColor: "#FFFFFF",
 					dotColor: "#444",
-					tooltipPosition: "top"
+					tooltipPosition: "bottom"
 				});
 				$('.dotsContainer').show();
 			}

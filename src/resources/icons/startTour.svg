@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="960px" height="560px" viewBox="0 0 960 560" enable-background="new 0 0 960 560" xml:space="preserve">
+	 viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A83F41;}
+	.st1{fill:#FFFFFF;}
+</style>
 <g id="Circle">
-	<circle fill="#0081E5" cx="516.896" cy="275.043" r="39.083"/>
+	<circle class="st0" cx="516.9" cy="275" r="39.1"/>
 </g>
 <g id="Pointer_Right">
-	<polygon fill="#FFFFFF" points="534.315,275.041 507.523,248.25 503.145,252.628 525.56,275.043 503.145,297.459 507.521,301.836 
-		534.314,275.046 534.312,275.044 	"/>
+	<polygon class="st1" points="534.3,275 507.5,248.2 503.1,252.6 525.6,275 503.1,297.5 507.5,301.8 534.3,275 534.3,275 	"/>
 </g>
 </svg>
