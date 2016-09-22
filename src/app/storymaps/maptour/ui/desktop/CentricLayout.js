@@ -116,8 +116,8 @@ define([
 							_introPanel.showLayout('#smallImageContainer', attributes);
 						
 						$('.smallImageLeftNav').hide();
+						$('.smallImageRightNav').hide();
 						_navDots.setActive(0);
-						$('.smallImageRightNav').css ('z-index', '99');
 					}
 				}
 				else {
@@ -129,6 +129,7 @@ define([
 					}
 					$('.smallImageRightNav').css ('z-index', '0');
 					$('.smallImageLeftNav').show();
+					$('.smallImageRightNav').show();
 					
 					var forceLayoutChange = false;
 					if ($('#centricIntroPanel').css('display') === 'block' || $('body').hasClass('mobile-view')) {
