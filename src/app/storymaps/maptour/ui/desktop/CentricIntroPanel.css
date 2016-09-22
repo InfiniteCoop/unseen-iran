@@ -1,6 +1,6 @@
 #centricIntroPanel{
 	position: absolute;
-	top: 20%;
+	top: 22%;
 	/*height: 550px;*/
 	width: 400px;
 	left: 100px;
@@ -123,6 +123,14 @@
 	background-position: 50% 50%;
 }
 
+#centricIntroPanel {
+	border: none !important;
+    background-color: rgba(255,255,255,0.8) !important;
+    box-shadow: 3px 3px 12px rgba(75,75,75,0.2) !important;
+    -webkit-box-shadow: 3px 3px 12px rgba(75,75,75,0.2) !important;
+	-moz-box-shadow: 3px 3px 12px rgba(75,75,75,0.2) !important;
+}
+
 #centricIntroPanel .shareButtons{
 	position: absolute;
 	right: 25px;
@@ -187,6 +195,7 @@
 	color: #3d3d3d;
 	margin-left: 30px;
 	margin-right: 20px;
+	font-size: 14px;
 	line-height: 1.3;
 	text-align: left;
 	font-weight: lighter;

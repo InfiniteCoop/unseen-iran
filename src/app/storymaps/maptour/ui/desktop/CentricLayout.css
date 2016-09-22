@@ -16,10 +16,6 @@
 	position: absolute;
 }
 
-#contentPanel .popover-content img {
-	width: 100%;
-}
-
 #contentPanel .popover {
 	max-width: 230px;
 	width: auto;
@@ -27,4 +23,12 @@
 
 #contentPanel .popover-title {
 	text-align: center;
+}
+
+#contentPanel .popover-content {
+	display: none;
+}
+
+#contentPanel .popover-content img {
+	width: 100%;
 }
