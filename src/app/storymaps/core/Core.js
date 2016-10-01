@@ -442,6 +442,7 @@ define(["esri/map",
 				mapOptions: {
 					slider: true,
 					autoResize: false,
+					smartNavigation: false,
 					// Force the web map extent to the world to get all data from the FS
 					extent : new Extent({
 						xmax: 180,
