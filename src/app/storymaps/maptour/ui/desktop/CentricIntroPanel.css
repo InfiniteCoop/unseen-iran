@@ -90,8 +90,8 @@
 	background-position:center;
 	background-size: 150%;
 	z-index: 99;
-	pointer-events: none;
-}
+/*	pointer-events: none;
+*/}
 
 .safari{
 	-webkit-mask-image: -webkit-radial-gradient(circle, white, black) !important;
