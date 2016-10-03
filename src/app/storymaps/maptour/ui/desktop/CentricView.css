@@ -399,7 +399,7 @@
 	background: url('../../../../../resources/icons/switchLayoutLight.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
-	z-index: 99;
+	z-index: 999;
 	cursor: pointer;
 	opacity: 1;
 }
@@ -414,7 +414,7 @@
 	background: url('../../../../../resources/icons/switchLayoutDark.png');
 	background-repeat: no-repeat;
 	background-size: 60%;
-	z-index: 99;
+	z-index: 999;
 	cursor: pointer;
 	opacity: 1;
 }
