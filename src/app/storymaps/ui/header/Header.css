@@ -98,6 +98,7 @@
 }
 
 .rightArea .logo {
+	display: none;
 	position:relative;
 	height: 60px;
 	border:none;
