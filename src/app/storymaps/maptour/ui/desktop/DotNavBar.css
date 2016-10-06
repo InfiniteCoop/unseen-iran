@@ -97,7 +97,7 @@
 
 .navDots.horizontal .dot {
 	display: inline-block;
-	width: 21px;
+	width: 18px;
 }
 
 .navDots .dot[data-index="0"] {

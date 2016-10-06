@@ -74,13 +74,14 @@
 }
 
 #cboxTitle {
+    visibility: hidden;
 	height: 15px;
 	font: 12px/1.2 Verdana, sans-serif;
 }
 
 #cboxClose{
 	position:absolute; 
-	bottom:0; 
+	top:1px; 
 	right:0; 
 	background:url(img/controls.png) no-repeat 2px 0; 
 	width:16px; 

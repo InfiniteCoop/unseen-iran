@@ -155,6 +155,10 @@
 	top: 10px;
 }
 
+#largeImageContainer .btn-fullscreen{
+	visibility: hidden;
+}
+
 #largeImageContainer .landscapeContent .largeImageAppTitleArea{
 	display: none;
 	position: absolute;
