@@ -393,7 +393,7 @@ define(["storymaps/maptour/core/MapTourHelper",
 				$.each($('.photo'), function(index, photo){
 					if(imageUrl)
 						return false;
-					if ($(photo).data('picUrl') !== 'none') {
+					if ($(photo).data('picUrl') && $(photo).data('picUrl') !== 'none') {
 						imageUrl = $(photo).data('picUrl');
 					}
 				});
@@ -411,7 +411,7 @@ define(["storymaps/maptour/core/MapTourHelper",
 				}
 				else {
 					$.colorbox({
-						href: $('.landscapeIframe'),
+						href: _container.find('.landscapeIframe'),
 						inline: true,
 						title: _title,
 						width: '80%',
